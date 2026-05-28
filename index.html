@@ -15,8 +15,7 @@
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background-color: #f4f0ea;
-            /* 温かみのある明るい背景色 */
+            background-color: #f4f0ea; /* 温かみのある明るい背景色 */
             color: #333333;
             display: flex;
             justify-content: center;
@@ -90,16 +89,14 @@
         /* リンクボタンのスタイル */
         .link-item {
             display: block;
-            background-color: #ffffff;
-            /* 通常時はクリーンな白 */
+            background-color: #ffffff; /* 通常時はクリーンな白 */
             color: #444444;
             text-decoration: none;
             padding: 16px 24px;
             border-radius: 12px;
             font-size: 0.95rem;
             font-weight: 500;
-            border: 1px solid #e1dacb;
-            /* 背景に馴染む淡いベージュの枠線 */
+            border: 1px solid #e1dacb; /* 背景に馴染む淡いベージュの枠線 */
             transition: all 0.25s ease;
             cursor: pointer;
         }
@@ -107,14 +104,11 @@
         /* ホバー時のエフェクト（明るさをキープしたまま変化） */
         @media (hover: hover) {
             .link-item:hover {
-                background-color: #eae3d5;
-                /* 背景よりほんの少し濃いベージュにして「押せる感」を演出 */
+                background-color: #eae3d5; /* 背景よりほんの少し濃いベージュにして「押せる感」を演出 */
                 color: #1a1a1a;
-                border-color: #c4b9a3;
-                /* 枠線も少しだけくっきりと */
+                border-color: #c4b9a3; /* 枠線も少しだけくっきりと */
                 transform: translateY(-2px);
-                box-shadow: 0 6px 14px rgba(140, 130, 115, 0.08);
-                /* 馴染む色味の柔らかい影 */
+                box-shadow: 0 6px 14px rgba(140, 130, 115, 0.08); /* 柔らかい影 */
             }
         }
 
@@ -132,8 +126,9 @@
         <div class="profile">
             <!-- アバターとKinoyaロゴの横並びエリア -->
             <div class="profile-images">
-                <img src="avatar.png" alt="Nobuki Inoue" class="img-avatar" onerror="this.style.display='none';">
-                <img src="kinoya.svg" alt="Kinoya" class="img-logo" onerror="this.style.display='none';">
+                <!-- パスを images/ に変更 -->
+                <img src="images/avatar.png" alt="Nobuki Inoue" class="img-avatar" onerror="this.style.display='none';">
+                <img src="images/kinoya.svg" alt="Kinoya" class="img-logo" onerror="this.style.display='none';">
             </div>
 
             <h1 class="profile-name">Nobuki Inoue / Kinoya</h1>
